@@ -38,11 +38,10 @@ figure {
 }
 
 figcaption {
-  font-size: 0.9em;
+  font-size: 0.5em;
   color: #555;
-  margin-top: 8px;
+  margin-top: 5px;
 }
-
 
 /* Responsive Tweaks */
 @media (max-width: 768px) {
