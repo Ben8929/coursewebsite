@@ -8,4 +8,16 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  z-index: 1000;
+  font-size: 1rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 480px) {
+  .scrollbutton {
+    bottom: 20px;
+    right: 15px;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+  }
 }

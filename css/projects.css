@@ -1,32 +1,65 @@
-.project p {
-    margin-top: 30px;
-    margin-bottom: 50px;
+.project {
+    margin: 50px auto;
     padding: 20px;
-    text-align: center;
     max-width: 800px;
     width: 90%;
-    margin: 0 auto;
+    text-align: center;
 }
 
+.project p {
+    margin: 30px auto 50px;
+    padding: 20px;
+}
+
+.project img {
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid black;
+    display: block;
+}
+
+/* Headings */
 h2 {
     color: rgb(91, 121, 66);
     text-align: center;
     padding: 20px;
+    font-size: 2em;
 }
 
 h4 {
     color: rgb(145, 92, 92);
     text-align: center;
     padding: 20px;
+    font-size: 1.3em;
 }
 
-.project img {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 400px;
-    width: 600px;
-    border: solid 1px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.6em;
+    }
+
+    h4 {
+        font-size: 1.1em;
+    }
+
+    .project p {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .project {
+        padding: 10px;
+    }
+
+    .project p {
+        font-size: 0.95em;
+        padding: 10px;
+    }
+
+    h2, h4 {
+        padding: 10px;
+    }
 }

@@ -1,15 +1,14 @@
 .galleryimages {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px auto;
+    padding: 0 10px;
+    max-width: 1000px;
+    width: 100%;
 }
 
-.galleryimages img{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 400px;
-    width: 600px;
-    border: solid 1px;
+.galleryimages img {
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid black;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
