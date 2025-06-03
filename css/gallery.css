@@ -17,6 +17,18 @@
     border-radius: 4px;          
 }
 
+figure {
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 8px;
+}
+
 @media (max-width: 480px) {
     .galleryimages {
         grid-template-columns: 1fr;

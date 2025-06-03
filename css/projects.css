@@ -19,6 +19,18 @@
     display: block;
 }
 
+figure {
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 8px;
+}
+
 /* Headings */
 h2 {
     color: rgb(91, 121, 66);
