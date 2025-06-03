@@ -1,0 +1,34 @@
+.welcome {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    text-align: center;
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.welcome h2 {
+    color: rgb(91, 121, 66);
+}
+
+.welcome img {
+    margin-top: 20px;
+    height: 400px;
+    width: 600px;
+    border: solid 1px;
+}
+
+.news {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.news h2 {
+    color: rgb(91, 121, 66);
+}
+

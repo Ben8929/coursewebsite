@@ -1,0 +1,117 @@
+body {
+    font-family: "DM Sans", sans-serif;
+    background-color: rgb(228, 242, 218);
+}
+
+/* Header Styling */ 
+
+header {
+    position: relative;
+    text-align: center;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    height: 600px;
+    width: auto;
+    border: 1px solid black;
+}
+
+header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    font-weight: bold;
+    font-size: 3em;
+    margin: 0;
+    pointer-events: none;
+}
+
+/* Nav bar styling */  
+nav {
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+nav ul li a {
+    display: inline-block;
+    background-color: #94b56f;  /* button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #b9db8a;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+footer {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+footer img {
+    height: 40px;
+    width: auto;
+    padding: 5px;
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+}
+
+.scrolltopbutton {
+  position: fixed;
+  bottom: 70px; 
+  right: 30px;
+  padding: 10px 15px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.scrollbotbutton {
+  position: fixed;
+  bottom: 30px; 
+  right: 30px;
+  padding: 10px 15px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
